@@ -1,0 +1,16 @@
+<% provide(:title, @user.name) %>
+<div>
+  <h1>
+    <%= gravatar_for @user %>
+    <%= @user.name %>
+  </h1>
+</div>
+<div class="col-md-8">
+  <% if @user.post.any? %>
+    <h3>post (<%= @user.post.count %>)</h3>
+    <ol class="microposts">
+      <%= render @posts %>
+    </ol>
+    <%= @post %>
+  <% end %>
+</div>
