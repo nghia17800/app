@@ -6,5 +6,6 @@ Rails.application.routes.draw do
   get "static_pages/home"
   get "/signup",  to: "users#new"
   resources :users
-  resources :posts, only: [:create,:destroy]
+  resources :posts, only: [:create, :destroy]
+  get "static_pages/active", to: "static_pages#active"
 end

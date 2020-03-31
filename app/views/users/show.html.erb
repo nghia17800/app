@@ -6,8 +6,8 @@
   </h1>
 </div>
 <div class="col-md-8">
-  <% if @user.post.any? %>
-    <h3>post (<%= @user.post.count %>)</h3>
+  <% if @user.posts.any? %>
+    <h3>post (<%= @user.posts.count %>)</h3>
     <ol class="microposts">
       <%= render @posts %>
     </ol>
