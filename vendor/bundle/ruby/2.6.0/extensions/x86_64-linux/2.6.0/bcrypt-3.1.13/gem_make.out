@@ -1,5 +1,5 @@
 current directory: /home/manhlv/app/vendor/bundle/ruby/2.6.0/gems/bcrypt-3.1.13/ext/mri
-/home/manhlv/.rvm/rubies/ruby-2.6.5/bin/ruby -I /home/manhlv/.rvm/rubies/ruby-2.6.5/lib/ruby/site_ruby/2.6.0 -r ./siteconf20200331-9891-1qwo7qr.rb extconf.rb
+/home/manhlv/.rvm/rubies/ruby-2.6.5/bin/ruby -I /home/manhlv/.rvm/rubies/ruby-2.6.5/lib/ruby/site_ruby/2.6.0 -r ./siteconf20200331-22258-1weeblj.rb extconf.rb
 creating Makefile
 
 current directory: /home/manhlv/app/vendor/bundle/ruby/2.6.0/gems/bcrypt-3.1.13/ext/mri
@@ -16,4 +16,4 @@ linking shared-object bcrypt_ext.so
 
 current directory: /home/manhlv/app/vendor/bundle/ruby/2.6.0/gems/bcrypt-3.1.13/ext/mri
 make "DESTDIR=" install
-/usr/bin/install -m 0755 bcrypt_ext.so ./.gem.20200331-9891-1o0n440
+/usr/bin/install -m 0755 bcrypt_ext.so ./.gem.20200331-22258-frwt21

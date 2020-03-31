@@ -1,5 +1,5 @@
 current directory: /home/manhlv/app/vendor/bundle/ruby/2.6.0/gems/unf_ext-0.0.7.6/ext/unf_ext
-/home/manhlv/.rvm/rubies/ruby-2.6.5/bin/ruby -I /home/manhlv/.rvm/rubies/ruby-2.6.5/lib/ruby/site_ruby/2.6.0 -r ./siteconf20200331-9891-1qwv010.rb extconf.rb
+/home/manhlv/.rvm/rubies/ruby-2.6.5/bin/ruby -I /home/manhlv/.rvm/rubies/ruby-2.6.5/lib/ruby/site_ruby/2.6.0 -r ./siteconf20200331-22258-a2cnnz.rb extconf.rb
 checking for -lstdc++... yes
 creating Makefile
 
@@ -20,4 +20,4 @@ linking shared-object unf_ext.so
 
 current directory: /home/manhlv/app/vendor/bundle/ruby/2.6.0/gems/unf_ext-0.0.7.6/ext/unf_ext
 make "DESTDIR=" install
-/usr/bin/install -m 0755 unf_ext.so ./.gem.20200331-9891-1bl9qbm
+/usr/bin/install -m 0755 unf_ext.so ./.gem.20200331-22258-uvdtzz
